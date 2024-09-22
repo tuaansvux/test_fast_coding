@@ -1,0 +1,45 @@
+
+
+/*pc >=1600px
+  tablet >=724px and < 1024 px
+  mobile <724px*/
+/*pc*/
+/*tablet*/
+@media(min-width:768px) and (max-width:1023px){
+    .logo{
+        margin-left:14px;
+    }
+    .mid_content_space {
+        margin-right:25px;
+        margin-left:10px;
+    }
+    #footer_about{
+        margin-left:10px;
+    }
+    #footer_connect{
+        margin-right:10px;
+    }
+    #testimonials{
+        margin-left:10px;
+    }
+}
+/*mobile*/
+@media(max-width:768px){
+    .logo{
+        margin-left:14px;
+    }
+    .mid_content_space {
+        margin-right:25px;
+        margin-left:10px;
+    }
+    #footer_about{
+        margin-left:10px;
+    }
+    #footer_connect{
+        margin-right:10px;
+    }
+    #testimonials{
+        margin-left:10px;
+    }
+}
+
